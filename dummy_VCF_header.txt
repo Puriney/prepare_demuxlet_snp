@@ -1,0 +1,39 @@
+##fileformat=VCFv4.2
+##contig=<ID=chr1,length=2147483647>
+##contig=<ID=chr2,length=2147483647>
+##contig=<ID=chr3,length=2147483647>
+##contig=<ID=chr4,length=2147483647>
+##contig=<ID=chr5,length=2147483647>
+##contig=<ID=chr6,length=2147483647>
+##contig=<ID=chr7,length=2147483647>
+##contig=<ID=chr8,length=2147483647>
+##contig=<ID=chr9,length=2147483647>
+##contig=<ID=chr10,length=2147483647>
+##contig=<ID=chr11,length=2147483647>
+##contig=<ID=chr12,length=2147483647>
+##contig=<ID=chr13,length=2147483647>
+##contig=<ID=chr14,length=2147483647>
+##contig=<ID=chr15,length=2147483647>
+##contig=<ID=chr16,length=2147483647>
+##contig=<ID=chr17,length=2147483647>
+##contig=<ID=chr18,length=2147483647>
+##contig=<ID=chr19,length=2147483647>
+##contig=<ID=chr20,length=2147483647>
+##contig=<ID=chr21,length=2147483647>
+##contig=<ID=chr22,length=2147483647>
+##contig=<ID=chrX,length=2147483647>
+##contig=<ID=chrY,length=2147483647>
+##contig=<ID=chrM,length=2147483647>
+##FILTER=<ID=PASS,Description="All filters passed">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DS,Number=1,Type=Float,Description="Estimated Alternate Allele Dosage : [P(0/1)+2*P(1/1)]">
+##FORMAT=<ID=GP,Number=3,Type=Float,Description="Estimated Posterior Probabilities for Genotypes 0/0, 0/1 and 1/1 ">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total Allele Count">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Alternate Allele Count">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Estimated Alternate Allele Frequency">
+##INFO=<ID=R2,Number=1,Type=Float,Description="Estimated Imputation Accuracy Across Multiple Imputed Datasets">
+##INFO=<ID=S2,Number=1,Type=Float,Description="Estimated Residual Variance of Imputed Genotypes">
+##INFO=<ID=R2A,Number=1,Type=Float,Description="Estimated Imputation Accuracy from First Imputed Dataset">
+##INFO=<ID=R2B,Number=1,Type=Float,Description="Estimated Imputation Accuracy from Second Imputed Dataset">
+##INFO=<ID=ER2A,Number=1,Type=Float,Description="Empirical (Leave-One-Out) R-square from first dataset (available only for genotyped variants)">
+##INFO=<ID=ER22,Number=1,Type=Float,Description="Empirical (Leave-One-Out) R-square from second dataset (available only for genotyped variants)">
